@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<string.h>
+int main(){
+    char in[50],st[50]; int i=0,top=-1;
+    scanf("%s",in);
+    while(in[i]){
+        st[++top]=in[i]; st[top+1]='\0';
+        printf("Shift %s\n",st);
+        if(st[top]=='a'){ st[top]='E'; printf("Reduce %s\n",st); }
+        i++;
+    }
+}
