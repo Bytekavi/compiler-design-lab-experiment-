@@ -1,0 +1,8 @@
+#include<stdio.h>
+#include<string.h>
+int main(){
+    char A,alpha[50],beta[50];
+    scanf(" %c->%[^|]|%s",&A,alpha,beta);
+    printf("%c->%s%c'\n",A,beta,A);
+    printf("%c'->%s%c'|e\n",A,alpha,A);
+}
