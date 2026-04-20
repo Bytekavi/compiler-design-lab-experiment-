@@ -1,5 +1,5 @@
 #include<stdio.h>
 int main(){
     printf("I0: E->.E+T\n");
-    printf("I1: E->E.+T\n");
+    printf("I1: E->E.+T\n"):
 }
