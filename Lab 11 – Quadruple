@@ -1,0 +1,7 @@
+#include<stdio.h>
+#include<string.h>
+int main(){
+    char a[10],b[10],op;
+    scanf("%s %c %s",a,&op,b);
+    printf("t1 = %s %c %s\n",a,op,b);
+}
