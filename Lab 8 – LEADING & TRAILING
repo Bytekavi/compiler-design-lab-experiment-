@@ -1,0 +1,5 @@
+#include<stdio.h>
+int main(){
+    printf("LEADING(E) = {(, id}\n");
+    printf("TRAILING(E) = {), id}\n");
+}
