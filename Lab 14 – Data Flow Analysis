@@ -1,0 +1,5 @@
+#include<stdio.h>
+int main(){
+    printf("IN[B] = use U (OUT[B] - def)\n");
+    printf("OUT[B] = union of successors\n");
+}
