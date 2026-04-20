@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<ctype.h>
+char st[100]; int top=-1;
+void push(char c){st[++top]=c;}
+char pop(){return st[top--];}
+int p(char c){ if(c=='+'||c=='-') return 1; if(c=='*'||c=='/') return 2; return 0;}
+int main(){
+    char s[100]; int i=0;
+    scanf("%s",s);
+    while(s[i]){
+        if(isalnum(s[i])) printf("%c",s[i]);
+        else{
+            while(top!=-1 && p(st[top])>=p(s[i])) printf("%c",pop());
+            push(s[i]);
+        }
+        i++;
+    }
+    while(top!=-1) printf("%c",pop());
+}
