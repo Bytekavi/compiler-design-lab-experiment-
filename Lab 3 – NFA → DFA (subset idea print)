@@ -1,0 +1,5 @@
+#include<stdio.h>
+int main(){
+    printf("{q0} --a--> {q0,q1}\n");
+    printf("{q0,q1} --b--> {q2}\n");
+}
