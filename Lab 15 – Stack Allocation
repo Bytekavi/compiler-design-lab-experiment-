@@ -1,0 +1,8 @@
+#include<stdio.h>
+int st[100],top=-1;
+void push(int x){st[++top]=x;}
+int pop(){return st[top--];}
+int main(){
+    push(5); push(10);
+    printf("%d\n",pop());
+}
