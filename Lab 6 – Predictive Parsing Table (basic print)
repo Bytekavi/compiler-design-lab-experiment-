@@ -1,0 +1,5 @@
+#include<stdio.h>
+int main(){
+    printf("E,i -> E->TR\n");
+    printf("R,+ -> R->+TR\n");
+}
