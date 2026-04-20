@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<string.h>
+int main(){
+    char r[100]; int i;
+    scanf("%s",r);
+    for(i=0;r[i];i++){
+        printf("q%d --%c--> q%d\n",i,r[i],i+1);
+    }
+}
