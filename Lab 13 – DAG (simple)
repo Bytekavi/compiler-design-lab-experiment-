@@ -1,0 +1,5 @@
+#include<stdio.h>
+int main(){
+    printf("t1 = a + b\n");
+    printf("t2 = t1 * c\n");
+}
