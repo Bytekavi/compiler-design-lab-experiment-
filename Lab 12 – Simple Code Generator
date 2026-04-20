@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main(){
+    printf("MOV R1, A\n");
+    printf("ADD R1, B\n");
+    printf("MOV C, R1\n");
+}
